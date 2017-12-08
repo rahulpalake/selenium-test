@@ -53,7 +53,7 @@ public class Login {
 		
 	}
 	
-	
+	/*
 	@Test
 	public void testMe() {
 		By button = By.xpath("//*[@id=\"___signin_0\"]/button");
@@ -62,4 +62,5 @@ public class Login {
 		
 		driver.findElement(button).click();
 	}
+	*/
 }
