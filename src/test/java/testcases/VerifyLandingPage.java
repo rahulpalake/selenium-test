@@ -14,7 +14,7 @@ public class VerifyLandingPage {
 	}
 	
 	@Test
-	public void verifyTitle() {
+	public void checkTitle() {
 	try {
 		System.out.println();
 		driver=log.driver;
