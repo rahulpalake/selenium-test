@@ -16,9 +16,9 @@ public class VerifyLandingPage {
 	}
 	
 	@Test
-	public void verifyTitle() {
+	public void verifyTitle1() {
 	try {
-		System.out.println();
+		
 		ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
 		driver=new ChromeDriver(options);
