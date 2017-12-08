@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+
 public class VerifyLandingPage {
 
 	static WebDriver driver=null; 
@@ -18,6 +19,8 @@ public class VerifyLandingPage {
 	public void verifyTitle() {
 	try {
 		System.out.println();
+		ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
 		driver=new ChromeDriver(options);
 		//driver=log.driver;
 		String title = driver.getTitle();
