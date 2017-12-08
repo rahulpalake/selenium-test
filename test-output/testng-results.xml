@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68835" started-at="2017-12-08T11:50:01Z" finished-at="2017-12-08T11:51:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68835" started-at="2017-12-08T11:50:01Z" finished-at="2017-12-08T11:51:10Z">
+      <class name="test.java.testcases.Login">
+        <test-method status="PASS" signature="tearUP()[pri:0, instance:test.java.testcases.Login@643b1d11]" name="tearUP" duration-ms="64364" started-at="2017-12-08T17:20:01Z" finished-at="2017-12-08T17:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUP -->
+        <test-method status="PASS" signature="testMe()[pri:0, instance:test.java.testcases.Login@643b1d11]" name="testMe" duration-ms="4377" started-at="2017-12-08T17:21:06Z" finished-at="2017-12-08T17:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMe -->
+      </class> <!-- test.java.testcases.Login -->
+      <class name="test.java.testcases.VerifyLandingPage">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:test.java.testcases.VerifyLandingPage@6d00a15d]" name="verifyTitle" duration-ms="20" started-at="2017-12-08T17:21:10Z" finished-at="2017-12-08T17:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- test.java.testcases.VerifyLandingPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,1 @@
+java -cp ./src/libs/*:./bin org.testng.TestNG testng.xml
