@@ -2,6 +2,7 @@ package test.java.testcases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class VerifyLandingPage {
@@ -17,7 +18,8 @@ public class VerifyLandingPage {
 	public void verifyTitle() {
 	try {
 		System.out.println();
-		driver=log.driver;
+		driver=new ChromeDriver(options);
+		//driver=log.driver;
 		String title = driver.getTitle();
 		System.out.println(title);
 		if(title.equalsIgnoreCase("Rotimatic Web Console")) {
