@@ -28,7 +28,7 @@ public class Login {
 	}
 	
 	
-	@Test
+	@Before
 	public void tearUP() {
 		System.out.println(OS);
 		if (OS.equalsIgnoreCase("windows")) {
